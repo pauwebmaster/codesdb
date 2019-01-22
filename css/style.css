@@ -1,0 +1,182 @@
+
+.sidebar{
+	height: 100%;
+	width: 200px;
+	background: linear-gradient(to bottom, #FFFDE4, #005AA7B3);
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	border-radius: 2px 2px 2px 2px;
+	overflow-x: hidden;
+	padding-top: 15px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	-webkit-box-shadow: -3px 0px 10px 4px rgba(69,69,69,1);
+	-moz-box-shadow: -3px 0px 10px 4px rgba(69,69,69,1);
+	box-shadow: -5px 1px 13px 2px rgba(69, 69, 69, 0.43),4px 0px 2px -3px rgba(69, 69, 69, 0.74);
+/*-moz-box-shadow: -5px 1px 13px 2px rgba(69,69,69,1);
+box-shadow: -5px 1px 13px 2px rgba(69,69,69,1);*/
+}
+/*sidebar content*/
+
+.sidebar ul{
+
+	list-style: none;
+	padding:0px;
+	margin-top: 100%;
+}
+.sidebar li{
+	margin-top: 25px;
+}
+.sidebar a{
+	font-family: 'Lato', sans-serif;
+	text-decoration: none;
+	font-weight: bold;
+	color: #6461A0;
+	position: relative;
+
+}
+.sidebar i {
+	color:#2f4858;
+	font-size: 20px;
+}
+.sidebar ul li > a:before {
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 2px;
+	bottom: -1px;
+	left: 0;
+	background: #2f4858;
+	visibility: hidden;
+	border-radius: 5px;
+	transform: scaleX(0);
+	transition: .25s linear;
+}
+.sidebar ul li > a:hover:before,
+.sidebar ul li > a:focus:before {
+	visibility: visible;
+	transform: scaleX(1);
+}
+
+
+/*listele.php
+*
+**
+**/
+
+
+
+/*form
+*
+**
+**/
+.contentGrid{
+	margin-left: 210px;
+	
+	width: calc(100%-230px);
+	height:100vh;
+	
+}
+form.yazForm{
+	margin: 100px;
+}
+.input-field{
+	position: relative;
+	width: 100%;
+	height:44px;
+	line-height: 44px;
+}
+.yazForm label{
+	transition: 0.2s all;
+	position: absolute;
+	top:0;
+	left: 0;
+	width: 100%;
+	cursor:text;
+	color:#2f4858;
+	font-weight: bold; 
+}
+.yazForm input{
+	width: 100%;
+	outline: 0;
+	border: 0;
+	padding: 0.5rem 0;
+	border-bottom: 3px solid #2f4858;
+	color: #2f4858;
+}
+.yazForm input:invalid { box-shadow: none; } 
+.yazForm input:invalid {
+	outline: 0;
+}
+.yazForm input:focus,
+.yazForm input:valid{
+	border-color: ;
+}
+
+.yazForm input:focus ~ label,
+.yazForm input:valid ~ label {
+	font-size: 14px;
+	top: -24px;
+	color: #2f4858;
+}
+textarea{
+	width: 100%;
+	outline: 0;
+	border: 0;
+	padding: 0.5rem 0;
+	border: 2px solid #2f4858;
+	border-radius: 5px;
+	color: #2f4858;
+	box-shadow: none;
+
+}
+textarea::placeholder {
+	color: #2f4858;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.yazForm input[type="submit"]{
+	width: 100%;
+	height: auto;
+	border:0;
+	outline: 0;
+	color: white;
+	background: #2f4858;
+
+}
+.inputSubmit{
+	width: 100%;
+	position: relative;
+	border: 2px solid #2f4858;
+	overflow: hidden;
+
+}
+.inputSubmit:before{
+
+	content: "Gönder";
+	font-size: 16px;
+	position: absolute;
+	bottom: 0;
+	background: white;
+	color: #2f4858;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	line-height: -moz-block-height;
+	transition: 0.2s all linear;
+	letter-spacing: 1px;
+}
+
+.inputSubmit:hover:before{
+	transform: translateY(-100%);
+}
+
+
