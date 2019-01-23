@@ -23,6 +23,7 @@
 			<li><a href="index.php"><i class="fas fa-home mr-2"></i>ANASAYFA</a></li>
 			<li><a href="listele.php"><i class="fas fa-list-ul mr-2"></i>LİSTELE</a></li>
 			<li><a href="yaz.php"><i class="fas fa-pen-square mr-2"></i>YAZ</a></li>
+			<li><a href="ara.php"><i class="fas fa-search mr-2"></i>ARAMA</a></li>
 		</ul>
 
 
