@@ -35,7 +35,7 @@
  ?>
 ```
 
-### 1.kayıt çekmek için
+### kayıt çekmek için
 ```php
 cek("SEÇİM", "TABLO", "SÜTUNLAR", "KOŞUL", array(KOSULDEGERLERI));
 ```
