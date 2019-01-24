@@ -1,9 +1,9 @@
 ## codesdb kullanımı  [daha detaylı için](http://renklikodlar.net/CLASS/php_PDO_turu_veritabani_sinifi "dahata detaylı için")
 
 #### İçindekiler
-1. [kayıt çekmek](https://github.com/pauwebmaster/codesdb#kay%C4%B1t-%C3%A7ekmek-i%C3%A7in "kayıt çekmek")
+1. [kayıt çekmek](https://github.com/pauwebmaster/codesdb/blob/master/README.md#kay%C4%B1t-%C3%A7ekmek-i%C3%A7in)
 
-2. [dbclass çoklu veri çekme](http://https://github.com/pauwebmaster/codesdb#dbclass-%C3%A7oklu-veri-%C3%A7ekme "dbclass çoklu veri çekme")
+2. [dbclass çoklu veri çekme](https://github.com/pauwebmaster/codesdb/blob/master/README.md#dbclass-%C3%A7oklu-veri-%C3%A7ekme)
 
 3. [ dbclass ile çoklu kayıt çekmek ve sayfalamak](https://github.com/pauwebmaster/codesdb#dbclass-ile-%C3%A7oklu-kay%C4%B1t-%C3%A7ekmek-ve-sayfalamak " dbclass ile çoklu kayıt çekmek ve sayfalamak")
 
