@@ -14,7 +14,7 @@
 			$sonuc = $bag->sayfala("OBJ_ALL", "codes", "id,name,surname,content", "ORDER BY id ASC", array(), 10, $sayfa, "?sayfa=",3 );
 
  // $sonuc["veriler"] dizi olduğu için döngü kurduk
- 
+			
 			foreach($sonuc["veriler"] as $satir) {
 				echo '	<div class="col-4 my-3">
 				<div class="card" style="width: 18rem;">
