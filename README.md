@@ -2,12 +2,19 @@
 
 #### İçindekiler
 1. [kayıt çekmek](https://github.com/pauwebmaster/codesdb#kay%C4%B1t-%C3%A7ekmek-i%C3%A7in "kayıt çekmek")
+
 2. [dbclass çoklu veri çekme](http://https://github.com/pauwebmaster/codesdb#dbclass-%C3%A7oklu-veri-%C3%A7ekme "dbclass çoklu veri çekme")
+
 3.[ dbclass ile çoklu kayıt çekmek ve sayfalamak](https://github.com/pauwebmaster/codesdb#dbclass-ile-%C3%A7oklu-kay%C4%B1t-%C3%A7ekmek-ve-sayfalamak " dbclass ile çoklu kayıt çekmek ve sayfalamak")
+
 4. [Kayıt sayımı ve sayısal işlemler](https://github.com/pauwebmaster/codesdb#kay%C4%B1t-say%C4%B1m%C4%B1-ve-say%C4%B1sal-i%C5%9Flemler "Kayıt sayımı ve sayısal işlemler")
+
 5.[ Kayıt ekleme](https://github.com/pauwebmaster/codesdb#kay%C4%B1t-ekleme " Kayıt ekleme")
+
 6[. Var olan kaydın güncellenmesi](https://github.com/pauwebmaster/codesdb#var-olan-kayd%C4%B1n-g%C3%BCncellenmesi ". Var olan kaydın güncellenmesi")
+
 7. [Bir kaydı silmek için](https://github.com/pauwebmaster/codesdb#bir-kayd%C4%B1-silmek-i%C3%A7in "Bir kaydı silmek için")
+
 8. Doğrudan sorgu çalıştırmak [sitesinden incelenmelidir.](http://renklikodlar.net/CLASS/php_PDO_turu_veritabani_sinifi "sitesinden incelenmelidir.")
 
 ------------
