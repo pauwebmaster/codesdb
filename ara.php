@@ -13,7 +13,7 @@
 			<div class="advancedSearch mx-auto ">
 				<div class="searchSutunGrid">
 					<ul class="searchSutun">
-						<li ><label for="insearch" ><input type="checkbox" name="insearch" data-toggle="tooltip" title="aranan değerin tam olmaksızın arama yapar"> İçinde bul</label></li>
+						<li ><label for="insearch" data-toggle="tooltip" title="aranan değerin tam olmaksızın arama yapar"><input type="checkbox" name="insearch" > İçinde bul</label></li>
 						<li ><label  for="id"><input type="radio" name="deger" value="id">id</label></li>
 						<li ><label  for="name"><input type="radio" name="deger" value="name" checked>name</label></li>
 						<li ><label  for="surname"><input type="radio" name="deger" value="surname">surname</label></li>

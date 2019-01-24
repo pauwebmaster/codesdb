@@ -7,14 +7,14 @@ $delete=$_GET["id"];
 
 
  //codes tablosunda id'si belirlenen  kaydı sil
- $sil = $bag->sil("codes", "WHERE id=?", array($delete));
- if ($sil){
+$sil = $bag->sil("codes", "WHERE id=?", array($delete));
+if ($sil){
 
-header("Location: listele.php");
-  
- }else{
-  echo "kayit YOK";
- }
+	header("Location: listele.php");
+	
+}else{
+	echo "kayit YOK";
+}
 
 
  /*

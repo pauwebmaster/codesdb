@@ -2,7 +2,7 @@
 <div class="contentGrid">
 	<div class="container">
 		<div class="row mt-5">
-		
+
 			<?php 
 
 			include 'baglan.php';
@@ -14,6 +14,7 @@
 			$sonuc = $bag->sayfala("OBJ_ALL", "codes", "id,name,surname,content", "ORDER BY id ASC", array(), 10, $sayfa, "?sayfa=",3 );
 
  // $sonuc["veriler"] dizi olduğu için döngü kurduk
+ 
 			foreach($sonuc["veriler"] as $satir) {
 				echo '	<div class="col-4 my-3">
 				<div class="card" style="width: 18rem;">
@@ -26,24 +27,27 @@
 				</div>
 				</div>
 				</div>';
-
-
-
-
 			}
+			?>
+		</div><!--row bittiği yer  -->
 
- // Sayfalama yapacak olan kodlarımız
-	// 		echo "<div class='sayfala'>";
- // echo $sonuc["sayfalar"];//sayfa sayilarini yazdirir (ilk onceki [-10]123[4]567[+10] sonraki son) seklinde
- // echo "</div><br>";
+		<div class="page">
+
+
+			<?php
+
+ //Sayfalama yapacak olan kodlarımız
+
+ echo $sonuc["sayfalar"];//sayfa sayilarini yazdirir (ilk onceki [-10]123[4]567[+10] sonraki son) seklinde
  
- // // Bazen kayıt sayısı sayfa sayısı gerekli olabilir kullanabileceklerimiz
- // echo $sonuc["toplamsayfa"]. " sayfada toplam " .$sonuc["toplamkayit"]. " kayit var, " .$sayfa. ". sayfadasınız.";
+ 
+ // Bazen kayıt sayısı sayfa sayısı gerekli olabilir kullanabileceklerimiz
+ echo $sonuc["toplamsayfa"]. " sayfada toplam " .$sonuc["toplamkayit"]. " kayit var, " .$sayfa. ". sayfadasınız.";
 
  ?>
-
-
 </div>
+
+
 </div>
 </div>
 <?php include 'footer.php'; ?>
