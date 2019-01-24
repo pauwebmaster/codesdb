@@ -38,7 +38,7 @@ cek("SEÇİM", "TABLO", "SÜTUNLAR", "KOŞUL", array(KOSULDEGERLERI));
    
 >  Birkaç koşul şekli bu şekilde, sql koşulları çok fazla olabileceği için mantığı anlamanız açısından bu örnekler size faydalı olacaktır koşuldaki ? işareti koşul değeri yerine kullanılıyor soldan sağa doğru kaç ? işareti kullanıldıysa okadar değeri koşul sıralamasına denk gelecek şekilde array() içinde virgülle ayırarak giriyoruz KOŞULDEĞERLERİ sayısal alanlar için olduğu gibi array(5,8,10) sayısal olmayan alanlar için array("deger","deger2","deger3") tırnaklarla belirtilmeli.   Birkaç koşul şekli bu şekilde, sql koşulları çok fazla olabileceği için mantığı anlamanız açısından bu örnekler size faydalı olacaktır koşuldaki ? işareti koşul değeri yerine kullanılıyor soldan sağa doğru kaç ? işareti kullanıldıysa okadar değeri koşul sıralamasına denk gelecek şekilde array() içinde virgülle ayırarak giriyoruz KOŞULDEĞERLERİ sayısal alanlar için olduğu gibi array(5,8,10) sayısal olmayan alanlar için array("deger","deger2","deger3") tırnaklarla belirtilmeli.
 
-#####OBJ ile $sonuc->id şeklinde kullanarak veri çekmek
+##### OBJ ile $sonuc->id şeklinde kullanarak veri çekmek
 ```php
  $sonuc = $bag->cek("OBJ", "haberler", "id,baslik,haber,tarih", "ORDER BY id DESC", array());
  echo "Haber id: ".$sonuc->id."<br>Başlık: ".$sonuc->baslik."<br>Haber: ".$sonuc->haber."<br>Tarih: ".$sonuc->tarih;
