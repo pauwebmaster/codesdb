@@ -1,7 +1,7 @@
 ## codesdb kullanımı  [daha detaylı için](http://renklikodlar.net/CLASS/php_PDO_turu_veritabani_sinifi "dahata detaylı için")
 
 #### İçindekiler
-1. kayıt çekmek
+1. [kayıt çekmek](ttps://github.com/pauwebmaster/codesdb/edit/master/README.md "kayıt çekmek için")
 2. dbclass çoklu veri çekme
 3. dbclass ile çoklu kayıt çekmek ve sayfalamak
 4. Kayıt sayımı ve sayısal işlemler
@@ -29,7 +29,7 @@
  ?>
 ```
 
-### 1.kayıt çekmek için
+### kayıt çekmek için
 ```php
 cek("SEÇİM", "TABLO", "SÜTUNLAR", "KOŞUL", array(KOSULDEGERLERI));
 ```
@@ -53,7 +53,7 @@ cek("SEÇİM", "TABLO", "SÜTUNLAR", "KOŞUL", array(KOSULDEGERLERI));
    
 >  Birkaç koşul şekli bu şekilde, sql koşulları çok fazla olabileceği için mantığı anlamanız açısından bu örnekler size faydalı olacaktır koşuldaki ? işareti koşul değeri yerine kullanılıyor soldan sağa doğru kaç ? işareti kullanıldıysa okadar değeri koşul sıralamasına denk gelecek şekilde array() içinde virgülle ayırarak giriyoruz KOŞULDEĞERLERİ sayısal alanlar için olduğu gibi array(5,8,10) sayısal olmayan alanlar için array("deger","deger2","deger3") tırnaklarla belirtilmeli.   Birkaç koşul şekli bu şekilde, sql koşulları çok fazla olabileceği için mantığı anlamanız açısından bu örnekler size faydalı olacaktır koşuldaki ? işareti koşul değeri yerine kullanılıyor soldan sağa doğru kaç ? işareti kullanıldıysa okadar değeri koşul sıralamasına denk gelecek şekilde array() içinde virgülle ayırarak giriyoruz KOŞULDEĞERLERİ sayısal alanlar için olduğu gibi array(5,8,10) sayısal olmayan alanlar için array("deger","deger2","deger3") tırnaklarla belirtilmeli.
 
-#####OBJ ile $sonuc->id şeklinde kullanarak veri çekmek
+##### OBJ ile $sonuc->id şeklinde kullanarak veri çekmek
 ```php
  $sonuc = $bag->cek("OBJ", "haberler", "id,baslik,haber,tarih", "ORDER BY id DESC", array());
  echo "Haber id: ".$sonuc->id."<br>Başlık: ".$sonuc->baslik."<br>Haber: ".$sonuc->haber."<br>Tarih: ".$sonuc->tarih;
